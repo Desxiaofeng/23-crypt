@@ -1,0 +1,59 @@
+﻿  main.c
+C:\Users\DELL\source\repos\test1\main.c(4,13): warning C4013: “aes_test”未定义；假设外部返回 int
+  mbedtls_aes_test.c
+C:\Users\DELL\source\repos\test1\mbedtls_aes_test.c(38,19): warning C4018: “<”: 有符号/无符号不匹配
+  mbedtls_dhm_test.c
+C:\Users\DELL\source\repos\test1\mbedtls_dhm_test.c(40,19): warning C4018: “<”: 有符号/无符号不匹配
+  mbedtls_gcm_test.c
+C:\Users\DELL\source\repos\test1\mbedtls_gcm_test.c(48,19): warning C4018: “<”: 有符号/无符号不匹配
+  mbedtls_hmac_test.c
+  mbedtls_rsa_sign_test.c
+C:\Users\DELL\source\repos\test1\mbedtls_rsa_sign_test.c(58,19): warning C4018: “<”: 有符号/无符号不匹配
+  mbedtls_rsa_test.c
+C:\Users\DELL\source\repos\test1\mbedtls_rsa_test.c(52,19): warning C4018: “<”: 有符号/无符号不匹配
+  mbedtls_sha_x_test.c
+mbedtls_aes_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_setkey
+mbedtls_aes_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_info_from_type
+mbedtls_aes_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_set_iv
+mbedtls_aes_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_init
+mbedtls_aes_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_setup
+mbedtls_aes_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_free
+mbedtls_aes_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_finish
+mbedtls_aes_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_update
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_entropy_init
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_ctr_drbg_init
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_mpi_read_string
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_entropy_func
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_dhm_read_public
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_entropy_free
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_dhm_init
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_dhm_calc_secret
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_ctr_drbg_random
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_dhm_free
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_mpi_size
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_ctr_drbg_free
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_dhm_make_public
+mbedtls_dhm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_ctr_drbg_seed
+mbedtls_gcm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_auth_encrypt
+mbedtls_gcm_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_cipher_auth_decrypt
+mbedtls_hmac_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_info_from_type
+mbedtls_hmac_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_get_size
+mbedtls_hmac_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_free
+mbedtls_hmac_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_setup
+mbedtls_hmac_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_get_name
+mbedtls_hmac_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_hmac_finish
+mbedtls_hmac_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_hmac_update
+mbedtls_hmac_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_init
+mbedtls_hmac_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_hmac_starts
+mbedtls_rsa_sign_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_rsa_pkcs1_verify
+mbedtls_rsa_sign_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_rsa_free
+mbedtls_rsa_sign_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_rsa_init
+mbedtls_rsa_sign_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_rsa_gen_key
+mbedtls_rsa_sign_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_rsa_pkcs1_sign
+mbedtls_rsa_sign_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_mpi_write_string
+mbedtls_rsa_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_rsa_pkcs1_decrypt
+mbedtls_rsa_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_rsa_pkcs1_encrypt
+mbedtls_sha_x_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_starts
+mbedtls_sha_x_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_finish
+mbedtls_sha_x_test.obj : error LNK2001: 无法解析的外部符号 _mbedtls_md_update
+C:\Users\DELL\source\repos\test1\Release\test1.exe : fatal error LNK1120: 44 个无法解析的外部命令
